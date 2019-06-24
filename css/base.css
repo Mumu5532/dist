@@ -1,0 +1,125 @@
+body{
+    margin:0;padding: 0;
+    background: #eee;
+}
+a {
+    color: #14191e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f01400;
+}
+.fone{
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+}
+.fthree{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.ffive{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+.headeractive{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+.headeractive a{
+    color: #fff !important;
+}
+/* 头部开始 */
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    height: 60px;
+    background-color: rgba(255,255,255,0.6);
+    color: #000;
+}
+.header a{
+    color: #686868;
+}
+/* a{
+    color: #fff;
+} */
+.header__logo {
+    float: left;
+    height: 40px;
+    margin: 10px 0px 0px 10px;
+    padding: 0px 0px 0px 50px;
+    display: block;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.header__nav {
+    float: right;
+    margin: 10px 10px 0px 0px;
+    position: relative;
+}
+
+.header__nav-item:hover {
+    color: #f03131;
+}
+
+.header__nav-item {
+    float: left;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    line-height: 40px;
+}
+.header__nav-item-tip {
+    width: 60px;
+    height: 2px;
+    background: red;
+    position: absolute;
+    left: 20px;
+    bottom: -2px;
+}
+
+.header__nav-item_custom_button {
+    color: #fff;
+    background: #000;
+    width: 60px;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+
+.header__nav-item_custom_button:hover {
+    color: #fff;
+}
+/* 底部开始 */
+.footer{
+    width: 100%;
+    height: 100px;
+    background: #222;
+    color: #CCC;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fo-one, .fo-two{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fo-two{
+    justify-content:center;
+}

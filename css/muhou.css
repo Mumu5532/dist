@@ -1,0 +1,66 @@
+.header__nav-item-tip {
+    left: 220px;
+}
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    height: 60px;
+    background-color: rgba(0,0,0,0.6);
+    color: #cccccc;
+}
+.header a{
+    color: #cccccc;
+}
+/* header 结束 */
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mh-main{
+    width: 1200px;
+    background: #ffffff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+.mh-main p{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+}
+.mh-main span{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    line-height: 26px;
+}
+.mh-main .tit{
+    margin-top:60px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.33;
+    text-align: justify;
+    color: #000;
+    overflow: hidden;
+    width: 100%;
+    padding: 14px 0px 16px;
+}
+.mh-main img{
+    /* width: 100%; */
+    margin: 0 auto;
+}
+.du{
+    margin-top:20px;
+}
+.jieshu p{
+    font-size: 14px;
+    color: rgb(160, 160, 160);
+    line-height: 1.8;
+}

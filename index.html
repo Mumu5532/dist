@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>最新电影</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <header>
+    
+  </header>
+  <!-- Swiper -->
+  <section class="pc-banner">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide-center none-effect"><a href="#">
+          <img height="500" src="images/file/hen/hyr.webp">
+        </a></div>
+        <div class="swiper-slide"><a href="#"><img height="500" src="images/file/hen/zhwm.webp"></a></div>
+        <div class="swiper-slide"><a href="#"><img height="500" src="images/file/hen/gsl.webp"></a></div>
+        <div class="swiper-slide"><a href="#"><img height="500" src="images/file/hen/jx.webp"></a></div>
+        <div class="swiper-slide"><a href="#"><img height="500" src="images/file/hen/by.webp"></a></div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="button">
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+  
+  <section class="pc-main">
+    <div class="pc-content">
+      <div class="pcc-left"></div>
+      <div class="pcc-right">
+        <div class="one">
+          <img src="images/5d0054e162629_cut.jpeg@600w_400h_1e_1c.jpg" alt="">
+        </div>
+        <div class="two">
+          <div class="post-right-title">热门频道</div>
+          <div class="tags">
+            <p>电影自习室</p>
+            <p>创意</p>
+            <p>旅行</p>
+            <p>广告</p>
+            <p>爱情</p>
+            <p>生活</p>
+            <p>运动</p>
+            <p>励志</p>
+            <p>科幻</p>
+            <p>预告</p>
+            <p>喜剧</p>
+          </div>
+        </div>
+        <div class="two">
+            <div class="post-right-title">精彩幕后</div>
+            <ul class="hot-list">
+              <li>
+                  <span class="hot-num">1</span>
+                    #话题# 哪个瞬间你感觉到父亲真的老了
+              </li>
+              <li>
+                  <span class="hot-num">2</span>
+                  #话题福利# 科幻片中，哪些脑洞瞬间让你印象深刻？
+              </li>
+              <li>
+                  <span class="hot-num">3</span>
+                  #话题#漫威十年英雄梦，曾对你有过哪些影响？
+              </li>
+              <li>
+                  <span class="hot-num">4</span>
+                  征集 | 写给母亲的一封信
+              </li>
+              <li>
+                  <span class="hot-num">5</span>
+                  七夕征集 | 只为你的三行情书
+              </li>
+              <li>
+                  <span class="hot-num">6</span>
+                  #话题#你的室友都干过哪些惊为天人的蠢事？
+              </li>
+              <li>
+                  <span class="hot-num">7</span>
+                  年末征集 | 请回答2018
+              </li>
+              <li>
+                  <span class="hot-num">7</span>
+                  情人节扎心一问| 给你一个偷偷心跳加速的机会
+              </li>
+            </ul>
+          </div>
+        <div class="one ew">
+          <img src="images/file/wx.jpg" alt="" srcset="">
+          <p>联系我们</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer></footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script>
+  window.onload = function () {
+  var swiper = new Swiper('.swiper-container', {
+    autoplay: 3000,
+    speed: 1000,
+    autoplayDisableOnInteraction: false,
+    loop: true,
+    centeredSlides: true,
+    slidesPerView: 2,
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    prevButton: '.swiper-button-prev',
+    nextButton: '.swiper-button-next',
+    onInit: function (swiper) {
+      swiper.slides[2].className = "swiper-slide swiper-slide-active";//第一次打开不要动画
+    },
+    breakpoints: {
+      668: {
+        slidesPerView: 1,
+      }
+    }
+  });
+}
+  </script>
+  <script src="js/base.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>最新电影-专题</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/seminar.css">
+</head>
+<body>
+  <header></header>
+  <section class="main">
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide one" style="background: url('images/file/seminar/1-bg.jpg') no-repeat;background-size: 100% 100%;">
+                <div class="one-rec">
+                  <div class="or-main">
+                    <p class="or-m-tit">2018评分最高的华语电影</p>
+                    <div class="or-m-m">
+                      <div class="orm-one">
+                        <div class="orm-one-img">
+                          <img width="112" height="159" src="images/file/seminar/1-wbsys.jpg" alt="">
+                        </div>
+                        <div class="orm-one-font">
+                          <p>我不是药神</p>
+                          <p> 豆瓣评分: 9.0 分</p>
+                        </div>
+                      </div>
+                      <div class="orm-two">
+                        <p>在我们刚刚经历过的时代巨变洪流之中，有无数这样的小人物在时代洪流中艰难生存着，同时在竭力不丢失他们的灵魂。终于有这样一部电影，让我们能够看到时代，看到善意，看到希望。希望这部电影也能被这个时代善待。</p>
+                        <p class="tit">——  张小北</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide two" style="background: url('images/file/seminar/2-bg.jpg') no-repeat;background-size: 100% 100%;">
+                  <div class="one-rec">
+                      <div class="or-main two">
+                        <p class="or-m-tit">2018评分最高的外语电影</p>
+                        <div class="or-m-m">
+                          <div class="orm-one">
+                            <div class="orm-one-img two">
+                              <img width="112" height="159" src="images/file/seminar/thwj.jpg" alt="">
+                            </div>
+                            <div class="orm-one-font">
+                              <p>头号玩家</p>
+                              <p> 豆瓣评分: 8.7 分</p>
+                            </div>
+                          </div>
+                          <div class="orm-two">
+                            <p>斯皮尔伯格把他对电影的梦想、热心、爱与情怀，浓缩到这部片子，通过极具年代感的经典电影和角色，又并茂高科技的现代游戏闯关，他拿手的、专注的、想诉说的都在这里给影迷情倾盆呈现。</p>
+                            <p class="tit">——  影志</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="swiper-slide three" style="background: url('images/file/seminar/2-bg2.jpg') no-repeat;background-size: 100% 100%;">
+                <div class="desc">
+                  <p>谢谢你玩我的游戏。</p>
+                  <p class="actor">—— 头号玩家</p>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-pagination"></div>
+      </div>
+  </section>
+  <footer></footer>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/base.js"></script>
+  <script src="js/seminar.js"></script>
+  <script>
+      var swiper = new Swiper('.swiper-container', {
+          pagination: '.swiper-pagination',
+          direction: 'vertical',
+          slidesPerView: 1,
+          paginationClickable: true,
+          spaceBetween: 30,
+          mousewheelControl: true
+      });
+      </script>
+</body>
+</html>
